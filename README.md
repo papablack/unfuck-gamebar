@@ -6,7 +6,7 @@ A small utility script that disables Game Bar, GameDVR and removes leftover prot
 
 
 
-This is especially useful on systems modified by debloat scripts such as \*Unfuck‑Windows10\*, where Game Bar UWP packages are removed but protocol registrations remain.
+This is especially useful on systems modified by debloat scripts such as *Unfuck‑Windows10*, where Game Bar UWP packages are removed but protocol registrations remain.
 
 
 
@@ -35,5 +35,6 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 iex (\[System.Net.WebClient]::new().DownloadString('https://tinyurl.com/jntnkent'))
 
 ```
+
 
 
